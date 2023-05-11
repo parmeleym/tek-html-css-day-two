@@ -1,0 +1,35 @@
+#firstStudent{
+    font-size: 20px;
+    color: red;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+#firstStudent:hover{
+    color: green;
+}
+
+#lastStudent{
+    font-size: 10px;
+    color: silver;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+}
+
+#lastStudent:hover{
+    color: blue;
+}
+
+#myName{
+    font-size: 30px;
+    color: purple;
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;
+}
+
+#myName:hover{
+    color: red;
+}

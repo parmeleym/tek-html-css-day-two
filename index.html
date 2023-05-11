@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p {
+            color: white;
+            font-size: 15px;
+            font-family: sans-serif;
+
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 style="color: red">Hello world!</h1>
+
+    <h2 id="random-para">Css Styling Precedence</h2>
+
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ex deleniti molestias, deserunt distinctio illo ipsam minima iure quas sunt.</p>
+
+    <ul>
+        <li>inline gets the first pick</li>
+        <li>internal gets the second pick</li>
+        <li>external gets the third pick</li>
+    </ul>
+
+    <div style="
+        height: 200px; 
+        width: 200px;
+        background-color: blue;
+        padding: 40px;
+        border: 5px dashed red;
+        margin-top: 50 px;
+        margin-left: 100px;
+        "
+    >
+
+        <p style="color: white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolorum maiores cum corrupti maxime, beatae perferendis inventore doloremque laudantium ipsam aliquam eos explicabo obcaecati laboriosam, ipsum fugiat. Officia, obcaecati sapiente!
+        </p>
+    </div>
+
+    <section>
+        <h2>Bootstrap</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, suscipit!</p>
+        <div>Seperator div does affect adjacent siblings.</div>
+
+        <p class="para">Lorem ipsum dolor sit amet.</p>
+        <p class="para">Lorem ipsum dolor sit amet.</p>
+        <p id="random-para"">Lorem ipsum dolor sit amet.</p>
+        <p class="para">Lorem ipsum dolor sit amet.</p>
+        <p class="para">Lorem ipsum dolor sit amet.</p>
+
+        <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+
+    <h2>Styling a link depending on state</h2>
+    <p>
+        <b>
+            <a href="www.facbook.com" target="_blank">This is a Link</a>
+        </b>
+    </p>
+
+    <section class="psedoClass">
+        <h2>Bootstrap</h2>
+        <p>Not first child p element</p>
+        <div>
+            <p>first child element</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+
+</body>
+</html>

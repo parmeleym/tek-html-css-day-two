@@ -1,0 +1,48 @@
+body{
+    background-color:aqua;
+}
+
+p{
+    color: rgb(83, 78, 78);
+}
+
+div + p{
+    color: red;
+}
+
+/*Classes - used multiple times*/
+.para{
+    font-size: 20px;
+}
+
+.para:hover{
+    background-color: white;
+}
+
+/*ID - Use only once as best practice*/
+#random-para{
+    color: orange;
+}
+
+#random-para:hover{
+    color: red;
+}
+
+#newHeader{
+    color: darkblue;
+}
+
+/*Link visited vs. after visit color change*/
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+}
+
+
+p:last-child{
+    background: lightgreen;
+}
+
